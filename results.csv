@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"When logging in","Website shows repeated images","SUCCESS","2022-10-31T13:55:07.079603253Z[Etc/UTC]","0.0","0.0"
+"When logging in","Users can log in","SUCCESS","2022-11-03T17:04:01.911421673Z[Etc/UTC]","0.0","13.01"
+"When logging in","Locked user shows correct error message","SUCCESS","2022-11-03T17:04:15.180401399Z[Etc/UTC]","0.0","0.83"
+"When logging in","Website shows repeated images","SUCCESS","2022-11-03T17:04:16.140493439Z[Etc/UTC]","0.0","0.93"

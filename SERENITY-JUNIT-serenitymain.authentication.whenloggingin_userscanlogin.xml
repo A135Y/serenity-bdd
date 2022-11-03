@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="serenityMain.authentication.WhenLoggingIn" skipped="0" tests="1" time="13.01" timestamp="2022-11-03 05:04:01"><testcase classname="serenityMain.authentication.WhenLoggingIn" name="Users can log in"/></testsuite>
