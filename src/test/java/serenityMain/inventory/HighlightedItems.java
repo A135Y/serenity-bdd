@@ -2,10 +2,12 @@ package serenityMain.inventory;
 
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.steps.UIInteractionSteps;
+import net.serenitybdd.junit5.SerenityJUnit5Extension;
 import net.serenitybdd.junit5.SerenityTest;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import serenityMain.authentication.LoginAction;
@@ -16,7 +18,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-@SerenityTest
+@ExtendWith(SerenityJUnit5Extension.class)
 public class HighlightedItems extends UIInteractionSteps {
 
     @Managed()

@@ -119,7 +119,7 @@ public class ShoppingAction extends UIInteractionSteps {
             allPrices.add(Double.parseDouble(newString));
         }
 
-        for(int i = 0; i <= allPrices.size()-1; i++){
+        for(int i = 0; i < allPrices.size()-1; i++){
             correctOrder = allPrices.get(i) < allPrices.get(i + 1);
         }
 
@@ -132,6 +132,7 @@ public class ShoppingAction extends UIInteractionSteps {
     @Test
     public void canUseHamburgerIconCorrectly(){
         loginAction.as(Users.Standard_User);
+
         findBy("//div[@class = 'bm-burger-button']/button").click();
         findBy("//a[@id='about_sidebar_link']").click();
       String title =  find(".supertitle").getText();
