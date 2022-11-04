@@ -1,4 +1,4 @@
-Serenity report generated 04-11-2022 13:39:01
+Serenity report generated 04-11-2022 14:50:07
 
 Test Cases:         3 
 Passed:             3

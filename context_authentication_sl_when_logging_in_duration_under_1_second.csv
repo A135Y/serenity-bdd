@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"When logging in","Locked user shows correct error message","SUCCESS","2022-11-04T13:38:56.632897801Z[Etc/UTC]","0.0","0.75"
-"When logging in","Website shows repeated images","SUCCESS","2022-11-04T13:38:57.518923006Z[Etc/UTC]","0.0","0.92"
